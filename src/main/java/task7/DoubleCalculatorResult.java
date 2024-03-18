@@ -1,15 +1,16 @@
 package task7;
 
-public class DoubleCalculatorResult extends CalculatorResult {
+public final class DoubleCalculatorResult extends CalculatorResult {
     public DoubleCalculatorResult(CalculatorRequest calculatorRequest) {
         super(calculatorRequest);
     }
 
     @Override
-    public Object computeresult() {
-        Object leftOperand = getrequest().getleftoperand();
-        Object rightOperand = getrequest().getrightoperand();
-        String operation = getrequest().getoperation();
+    public Object computeResult() {
+        Object leftOperand = getRequest().leftOperand();
+        Object rightOperand = getRequest().rightOperand();
+        String operation = getRequest().operation();
+
 
         switch (operation) {
             case "+":

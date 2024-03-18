@@ -11,8 +11,8 @@ public class Executare {
         List<CalculatorResult> calculationResults = SmarterCalculator.calculate(args);
 
         for (CalculatorResult result : calculationResults) {
-            CalculatorRequest request = result.getrequest();
-            System.out.println("Operation " + request + " has result " + result.computeresult());
+            CalculatorRequest request = result.getRequest();
+            System.out.println("Operation " + request + " has result " + result.computeResult());
         }
     }
 

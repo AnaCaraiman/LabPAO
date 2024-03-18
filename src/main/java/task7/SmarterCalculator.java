@@ -8,7 +8,7 @@ public class SmarterCalculator {
         List<CalculatorRequest> requests = InputConverter.maprequests(args);
         List<CalculatorResult> results = new ArrayList<>();
         for (CalculatorRequest request : requests) {
-            switch (request.getleftoperand().getClass().getSimpleName()) {
+            switch (request.leftOperand().getClass().getSimpleName()) {
                 case "Integer":
                     results.add(new IntegerCalculatorResult(request));
                     break;

@@ -7,10 +7,10 @@ public class BooleanCalculatorResult extends CalculatorResult{
     }
 
     @Override
-    public Boolean computeresult() {
-        Boolean leftoperand = (Boolean) getrequest().getleftoperand();
-        Boolean rightoperand = (Boolean) getrequest().getrightoperand();
-        switch (getrequest().getoperation()) {
+    public Boolean computeResult() {
+        Boolean leftoperand = (Boolean) getRequest().leftOperand();
+        Boolean rightoperand = (Boolean) getRequest().rightOperand();
+        switch (getRequest().operation()) {
             case "AND":
                 return leftoperand && rightoperand;
             case "OR":

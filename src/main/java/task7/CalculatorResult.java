@@ -3,18 +3,16 @@ package task7;
 public abstract class CalculatorResult {
     private final CalculatorRequest request;
 
-
-    protected CalculatorResult(CalculatorRequest calculatorrequest) {
-        this.request = calculatorrequest;
+    protected CalculatorResult(CalculatorRequest request) {
+        this.request = request;
     }
 
-    public CalculatorRequest getrequest() {
+    public CalculatorRequest getRequest() {
         return request;
     }
 
-    public Object computeresult() {
-        return null;
-    }
 
+    public abstract Object computeResult();
 }
+
 
