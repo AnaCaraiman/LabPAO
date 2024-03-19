@@ -1,4 +1,4 @@
-package task7;
+package task6;
 
 public final class DoubleCalculatorResult extends CalculatorResult {
     public DoubleCalculatorResult(CalculatorRequest calculatorRequest) {

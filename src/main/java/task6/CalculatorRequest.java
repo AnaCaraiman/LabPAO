@@ -1,4 +1,4 @@
-package task7;
+package task6;
 public record CalculatorRequest(Object leftOperand, Object rightOperand, String operation) {
     public String Getrequesttype() {
         if (leftOperand instanceof Integer && rightOperand instanceof Integer) {

@@ -1,4 +1,4 @@
-package task7;
+package task6;
 
 public class DummyCalculator {
     public void calculate(String[] args) {

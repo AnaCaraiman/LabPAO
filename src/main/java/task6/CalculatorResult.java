@@ -1,4 +1,4 @@
-package task7;
+package task6;
 
 public abstract class CalculatorResult {
     private final CalculatorRequest request;

@@ -1,9 +1,6 @@
-package task7;
+package task6;
 
 import java.util.List;
-import task7.CalculatorResult;
-import task7.CalculatorRequest;
-import task7.SmarterCalculator;
 
 
 public class Executare {

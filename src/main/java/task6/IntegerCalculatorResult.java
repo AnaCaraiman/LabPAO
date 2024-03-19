@@ -1,6 +1,5 @@
-package task7;
+package task6;
 
-import java.util.function.BinaryOperator;
 public final class IntegerCalculatorResult extends CalculatorResult {
     public IntegerCalculatorResult(CalculatorRequest calculatorRequest) {
         super(calculatorRequest);

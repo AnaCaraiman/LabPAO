@@ -1,4 +1,4 @@
-package task7;
+package task6;
 
 public class BooleanCalculatorResult extends CalculatorResult{
 
