@@ -31,8 +31,7 @@ public class Main {
 
     private static void runCustomTests(StudentStorage storage) {
             try {
-                // Scrieți aici testele personalizate
-                // De exemplu:
+
                 testSerializationDeserialization(storage);
             } catch (IOException e) {
                 System.err.println("An IOException occurred during custom tests: " + e.getMessage());
