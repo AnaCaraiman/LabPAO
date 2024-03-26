@@ -1,9 +1,9 @@
-package Bonus.requestMapper;
+package task2.requestMapper;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import Bonus.CalculationRequest;
+import task2.CalculationRequest;
 
 public abstract class NumberCalculatorRequestMapper implements CalculatorRequestMapper {
     protected static final List<String> VALID_OPERATIONS = Arrays.asList("+", "-", "*", "/");

@@ -1,4 +1,4 @@
-package Bonus;
+package task2;
 
 public class CalculationRequest {
     private final Object leftOperand;

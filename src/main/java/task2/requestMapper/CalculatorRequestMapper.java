@@ -1,5 +1,5 @@
-package Bonus.requestMapper;
-import Bonus.CalculationRequest;
+package task2.requestMapper;
+import task2.CalculationRequest;
 import java.util.Optional;
 
 public interface CalculatorRequestMapper {

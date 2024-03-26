@@ -1,7 +1,7 @@
-package Bonus.requestMapper;
+package task2.requestMapper;
 
 import java.util.Optional;
-import Bonus.CalculationRequest;
+import task2.CalculationRequest;
 
 public class IntegerCalculatorRequestMapper extends NumberCalculatorRequestMapper {
     @Override
